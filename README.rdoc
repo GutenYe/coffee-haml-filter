@@ -9,9 +9,14 @@ inside your {Haml}[http://github.com/nex3/haml] templates.
 
 == Install:
 
-Add it as a gem dependency to you Rails application:
+Add it as a gem dependency to you Rails 2 application:
 
     script/plugin install git://github.com/inem/coffee-haml-filter.git
+
+For Rails 3
+
+	# Gemfile
+	gem 'coffee-haml-filter'
 
 == Example:
 
